@@ -8,12 +8,12 @@ const portfolioData = {
     tagline: "Result-Oriented Student | AIML Enthusiast"
   },
   about: {
-    bio: "Hello! I'm Manoj Mannam, a passionate and results-oriented student with a deep interest in software engineering and Artificial Intelligence. I'm currently pursuing my B.Tech in Computer Science and have a solid foundation in front-end and back-end technologies. My goal is to leverage my skills to create impactful solutions and contribute to cutting-edge projects.",
+    bio: "Hi, I’m Manoj Mannam — a Computer Science student (CSE ’26) passionate about Software Engineering and AI. I have solved 400+ DSA problems (LeetCode Top 12.1%) and gained hands-on experience in full-stack web apps, AI integration, and deployment.",
     education: [
       { year: "2022-Present", institution: "CMR College of Engineering and Technology", degree: "B.Tech in Computer Science" },
       { year: "2018-2020", institution: "Jawahar Navodaya Vidyalaya", degree: "Science Stream" }
     ],
-    resumeUrl: "#" // Replace with your actual resume URL
+    resumeUrl: "https://drive.google.com/file/d/1lHF8CHVKLngc_aZnU-fI6HdlSaO3n7Uf/view?usp=sharing" 
   },
   skills: {
   technical: [
@@ -130,10 +130,10 @@ const Header = () => {
         <div className="flex items-center space-x-4 md:space-x-8 text-gray-200">
           <motion.div style={{ scale: profileScale }}>
             <img
-              src="https://placehold.co/50x50/3182CE/FFFFFF?text=M"
-              alt="Manoj Mannam"
-              className="w-10 h-10 rounded-full object-cover border-2 border-yellow-400"
-            />
+               src="https://api.dicebear.com/7.x/bottts/svg?seed=manoj"
+               alt="Manoj Mannam"
+               className="w-10 h-10 rounded-full object-cover border-2 border-yellow-400"
+           />
           </motion.div>
           <motion.div style={{ x: nameX }} className="font-bold text-xl md:text-2xl text-yellow-400">
             {name}
@@ -515,4 +515,5 @@ export default function App() {
     </div>
   );
 }
+
 
