@@ -5,75 +5,85 @@ import { motion, AnimatePresence, useInView, useScroll, useTransform } from 'fra
 const portfolioData = {
   hero: {
     name: "Manoj Mannam",
-    tagline: "Result-Oriented Student | Future Software Engineer | AIML Enthusiast"
+    tagline: "Result-Oriented Student | AIML Enthusiast"
   },
   about: {
     bio: "Hello! I'm Manoj Mannam, a passionate and results-oriented student with a deep interest in software engineering and Artificial Intelligence. I'm currently pursuing my B.Tech in Computer Science and have a solid foundation in front-end and back-end technologies. My goal is to leverage my skills to create impactful solutions and contribute to cutting-edge projects.",
     education: [
-      { year: "2021-Present", institution: "IIT Madras", degree: "B.Tech in Computer Science" },
-      { year: "2019-2021", institution: "Higher Secondary School", degree: "Science Stream" }
+      { year: "2022-Present", institution: "CMR College of Engineering and Technology", degree: "B.Tech in Computer Science" },
+      { year: "2018-2020", institution: "Jawahar Navodaya Vidyalaya", degree: "Science Stream" }
     ],
     resumeUrl: "#" // Replace with your actual resume URL
   },
   skills: {
-    technical: [
-      { name: "React", icon: "⚛️" },
-      { name: "JavaScript", icon: "📜" },
-      { name: "Python", icon: "🐍" },
-      { name: "TensorFlow", icon: "🧠" },
-      { name: "SQL", icon: "🗄️" }
-    ],
-    tools: [
-      { name: "Git & GitHub", icon: "💻" },
-      { name: "VS Code", icon: "👨‍💻" },
-      { name: "Figma", icon: "🎨" },
-      { name: "Postman", icon: "📬" }
-    ]
-  },
-  projects: [
-    {
-      title: "Project Alpha",
-      description: "A comprehensive web application for managing tasks and projects, built with React and a RESTful API.",
-      tech: ["React", "Node.js", "Express", "MongoDB"],
-      github: "#",
-      demo: "#"
-    },
-    {
-      title: "Project Beta",
-      description: "An AI-powered image recognition tool that can classify objects in real-time using a pre-trained model.",
-      tech: ["Python", "TensorFlow", "Flask"],
-      github: "#",
-      demo: "#"
-    },
-    {
-      title: "Project Gamma",
-      description: "A modern e-commerce platform with a responsive design and secure payment integration.",
-      tech: ["Next.js", "Stripe", "PostgreSQL"],
-      github: "#",
-      demo: "#"
-    },
+  technical: [
+    { name: "C", icon: "🔠" },
+    { name: "C++", icon: "💻" },
+    { name: "Java", icon: "☕" },
+    { name: "JavaScript", icon: "📜" },
+    { name: "TypeScript", icon: "🔷" },
+    { name: "SQL", icon: "🗄️" },
+    { name: "Supabase", icon: "🗂️" },
+    { name: "LangChain", icon: "🔗" },
+    { name: "Xenova Transformers", icon: "🤖" }
   ],
+  tools: [
+    { name: "Git & GitHub", icon: "🌐" },
+    { name: "Netlify (CI/CD)", icon: "🚀" },
+    { name: "VS Code", icon: "👨‍💻" },
+    { name: "Postman", icon: "📬" },
+    { name: "Figma", icon: "🎨" }
+  ]
+},
+  projects: [
+  {
+    title: "PDFMarket – Digital PDF Selling Platform",
+    description: "A full-stack platform for selling PDFs with secure authentication, cart functionality, and seamless payment integration.",
+    tech: ["JavaScript", "TypeScript", "Supabase (SQL)", "Razorpay API", "Netlify (CI/CD)"],
+    github: "https://github.com/Manoj-APJ/pdfstore",
+    demo: "https://manojtalent.netlify.app/"
+  },
+  {
+    title: "AI-Powered PDF Organizer",
+    description: "An AI-integrated file management system that allows users to upload, tag, categorize, and chat with PDFs using NLP models.",
+    tech: ["TypeScript", "JavaScript", "Supabase (SQL)", "LangChain", "Xenova Transformers"],
+    github: "#",
+    demo: "#"
+  },
+  {
+    title: "Binary Tree Visualization",
+    description: "An interactive tool built with p5.js to visualize binary tree operations with dynamic animations, real-time searching, panning, and zooming.",
+    tech: ["JavaScript", "HTML", "CSS", "p5.js"],
+    github: "#",
+    demo: "#"
+  },
+  {
+    title: "Real-Time Object Detector",
+    description: "An AI-powered object detection system using TensorFlow to classify and localize objects in real-time from live video streams.",
+    tech: ["Python", "TensorFlow", "OpenCV", "Flask"],
+    github: "#",
+    demo: "#"
+  }
+],
   codingProfiles: {
     profiles: [
-      { name: "LeetCode", url: "#", icon: "https://www.leetcode.com/favicon.ico" },
-      { name: "GitHub", url: "#", icon: "https://github.githubassets.com/favicons/favicon.svg" },
-      { name: "Codeforces", url: "#", icon: "https://codeforces.org/favicon.ico" },
-      { name: "HackerRank", url: "#", icon: "https://www.hackerrank.com/favicon.ico" }
+      { name: "LeetCode", url: "https://leetcode.com/u/manojmannamapj9/", icon: "https://www.leetcode.com/favicon.ico" },
+      { name: "GitHub", url: "https://github.com/Manoj-APJ/", icon: "https://github.githubassets.com/favicons/favicon.svg" },
+      { name: "Codeforces", url: "#", icon: "https://codeforces.org/22h51a05a4" }
     ],
     stats: [
-      { name: "Problems Solved", value: 1200, icon: "✅" },
-      { name: "Competitive Rating", value: 1850, icon: "⭐" }
+      { name: "Problems Solved", value: 500, icon: "✅" },
+      { name: "Competitive Rating", value: 1754, icon: "⭐" }
     ]
   },
   certifications: [
-    { title: "React Nanodegree", issuer: "Udacity", date: "2023", url: "#" },
-    { title: "Machine Learning Specialization", issuer: "Coursera", date: "2022", url: "#" }
+    { title: "Fundamentals of Python", issuer: "Infosys Springboard", date: "2025", url: "#" }
   ],
   blogs: [
     { title: "Getting Started with React Hooks", snippet: "A beginner's guide to using useState and useEffect...", date: "Oct 2023", url: "#" },
     { title: "Understanding Backpropagation in Neural Networks", snippet: "A deep dive into the core algorithm of deep learning...", date: "Sep 2023", url: "#" }
   ],
-  email: "manojmannam@example.com"
+  email: "manojmannamapj9@gmail.com"
 };
 
 // --- Custom Components & Sections ---
@@ -505,3 +515,4 @@ export default function App() {
     </div>
   );
 }
+
