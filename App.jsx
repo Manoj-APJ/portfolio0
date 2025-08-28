@@ -41,13 +41,13 @@ const portfolioData = {
     description: "A full-stack platform for selling PDFs with secure authentication, cart functionality, and seamless payment integration.",
     tech: ["JavaScript", "TypeScript", "Supabase (SQL)", "Razorpay API", "Netlify (CI/CD)"],
     github: "https://github.com/Manoj-APJ/pdfstore",
-    demo: "https://manojtalent.netlify.app/"
+    demo: "https://reliable-lily-bea0ed.netlify.app/"
   },
   {
     title: "AI-Powered PDF Organizer",
     description: "An AI-integrated file management system that allows users to upload, tag, categorize, and chat with PDFs using NLP models.",
     tech: ["TypeScript", "JavaScript", "Supabase (SQL)", "LangChain", "Xenova Transformers"],
-    github: "#",
+    github: "https://github.com/Manoj-APJ/AI_files_org",
     demo: "#"
   },
   {
@@ -61,7 +61,7 @@ const portfolioData = {
     title: "Real-Time Object Detector",
     description: "An AI-powered object detection system using TensorFlow to classify and localize objects in real-time from live video streams.",
     tech: ["Python", "TensorFlow", "OpenCV", "Flask"],
-    github: "#",
+    github: "https://github.com/Manoj-APJ/ObjectDetector",
     demo: "#"
   }
 ],
@@ -69,7 +69,7 @@ const portfolioData = {
     profiles: [
       { name: "LeetCode", url: "https://leetcode.com/u/manojmannamapj9/", icon: "https://www.leetcode.com/favicon.ico" },
       { name: "GitHub", url: "https://github.com/Manoj-APJ/", icon: "https://github.githubassets.com/favicons/favicon.svg" },
-      { name: "Codeforces", url: "#", icon: "https://codeforces.org/22h51a05a4" }
+      { name: "Codeforces", url: "https://codeforces.com/profile/22h51a05a4", icon: "https://commons.wikimedia.org/wiki/File:Codeforces_logo.svg" }
     ],
     stats: [
       { name: "Problems Solved", value: 500, icon: "✅" },
@@ -515,5 +515,6 @@ export default function App() {
     </div>
   );
 }
+
 
 
