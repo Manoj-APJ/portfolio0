@@ -13,7 +13,7 @@ const portfolioData = {
       { year: "2022-Present", institution: "CMR College of Engineering and Technology", degree: "B.Tech in Computer Science" },
       { year: "2018-2020", institution: "Jawahar Navodaya Vidyalaya", degree: "Science Stream" }
     ],
-    resumeUrl: "https://drive.google.com/file/d/1lHF8CHVKLngc_aZnU-fI6HdlSaO3n7Uf/view?usp=sharing" 
+    resumeUrl: "https://drive.google.com/file/d/1h36mgLYyC5U8Cm9T98dm1E7t1BwV4C-6/view?usp=sharing" 
   },
   skills: {
   technical: [
@@ -515,6 +515,7 @@ export default function App() {
     </div>
   );
 }
+
 
 
 
